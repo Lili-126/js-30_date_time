@@ -60,7 +60,7 @@ wrapper.append(timer);
 
 function calcTime() {    // расчитывает и выводит на экран обратный отсчёт до НГ
     let date = new Date();
-    let endYear = new Date(2024, 11, 31, 23, 59, 59, 999);
+    let endYear = new Date(2025, 11, 31, 23, 59, 59, 999);
     let result = (Date.parse(endYear) - Date.parse(date));  // разница в милисекундах
 
     days = Math.round(result / (24 * 60 * 60 * 1000));
